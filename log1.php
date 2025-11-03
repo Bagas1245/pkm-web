@@ -17,3 +17,40 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Beranda Materi</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat datang di web ini</h1>
+        <p>Apabila anda memiliki keluhan, silahkan sampaikan keluhan anda melalui kontak kami yang sudah tertera</p>
+        <ul>
+            <li><a href="Beranda.html" class="active">Beranda</a></li>
+            <li><a href="Beranda.html" >Materi</a></li>
+            <li><a href="Beranda.html" >Pencarian Materi</a></li>
+            <li><a href="Beranda.html" ></a></li>
+            <li><a href="Beranda.html" >Beranda</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search items . . ." />
+        </div>
+        <ul id="items-list" class="hidden">
+            <li><a href="Materi1.html" target="_blank">Input</a></li>
+            <li><a href="Aletr1.html" target="_blank">Alter Table</a></li>
+            <li><a href="CColl.html" target="_blank">Change Column</a></li>
+            <li><a href="Drop.html" target="_blank">Drop</a></li>
+            <li><a href="Mt1.html" target="_blank">Materi P1</a></li>
+            <li><a href="I_i.html" target="_blank">Insert Into</a></li>
+        </ul>
+    </div>
+    <script src="style2.js"></script>
+</body>
+</html>
