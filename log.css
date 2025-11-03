@@ -1,0 +1,71 @@
+body{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* Login box*/
+.login-container{
+    background-color: #bceeeb;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Judul form */
+.login-container h2{
+    text-align: center;
+    color: #6fb1f7;
+    margin-bottom: 20px;
+}
+
+/* Login box*/
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* input field */
+input[type="text"], input[type="password"]{
+    width: 100%; /* lrbar penuh */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* garis abu" tipis */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* input login */
+input[type="submit"]{
+    width: 300px;
+    padding: 10px;
+    background-color: #0056b3(255, 255, 255);
+    color: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+/* Efek hover */
+input[type="submit"]:hover{
+    background-color: #0056b3; /*B*iru lebih gelap*/
+}
+
+/*nbadckhsa*/
+.note{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+a{
+    color: #666;
+}
